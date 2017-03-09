@@ -7,6 +7,10 @@ public class ErrorResult {
     private double errorCode;
     private String errorMessage;
 
+    public ErrorResult(){
+
+    }
+
     public ErrorResult(double errorCode, String errorMessage){
         this.errorCode = errorCode;
         this.errorMessage = errorMessage;
